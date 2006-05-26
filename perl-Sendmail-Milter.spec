@@ -6,6 +6,7 @@
 %define	pdir	Sendmail
 %define	pnam	Milter
 Summary:	Sendmail::Milter - Interface to sendmail's Mail Filter API
+Summary(pl):	Sendmail::Milter - interfejs do API Mail Filter sendmaila
 Name:		perl-Sendmail-Milter
 Version:	0.18
 Release:	1
@@ -24,6 +25,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Sendmail::Milter is a Perl extension to sendmail's Mail Filter API
 (Milter).
+
+%description -l pl
+Sendmail::Milter to rozszerzenie Perla bêd±ce interfejsem do API Mail
+Filter (Milter) sendmaila.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
