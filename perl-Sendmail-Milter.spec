@@ -9,7 +9,7 @@ Summary:	Sendmail::Milter - Interface to sendmail's Mail Filter API
 Summary(pl):	Sendmail::Milter - interfejs do API Mail Filter sendmaila
 Name:		perl-Sendmail-Milter
 Version:	0.18
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -20,6 +20,7 @@ URL:		http://sendmail-milter.sourceforge.net/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	sendmail-devel >= 8.13.6-3.1
+Requires:	perl-dirs
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -57,6 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README TODO
+%dir %{perl_vendorarch}/Sendmail
 %{perl_vendorarch}/Sendmail/*.pm
 %dir %{perl_vendorarch}/auto/Sendmail/Milter
 %{perl_vendorarch}/auto/Sendmail/Milter/*.bs
