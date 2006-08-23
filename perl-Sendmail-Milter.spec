@@ -13,7 +13,7 @@ Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/C/CY/CYING/Sendmail-Milter-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e7ec468d51f699601e0fb1c0bd544c9d
 Patch0:		%{name}-build.patch
 URL:		http://sendmail-milter.sourceforge.net/
