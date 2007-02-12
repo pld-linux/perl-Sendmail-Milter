@@ -6,7 +6,7 @@
 %define	pdir	Sendmail
 %define	pnam	Milter
 Summary:	Sendmail::Milter - Interface to sendmail's Mail Filter API
-Summary(pl.UTF-8):   Sendmail::Milter - interfejs do API Mail Filter sendmaila
+Summary(pl.UTF-8):	Sendmail::Milter - interfejs do API Mail Filter sendmaila
 Name:		perl-Sendmail-Milter
 Version:	0.18
 Release:	3
