@@ -9,7 +9,7 @@ Summary:	Sendmail::Milter - Interface to sendmail's Mail Filter API
 Summary(pl.UTF-8):	Sendmail::Milter - interfejs do API Mail Filter sendmaila
 Name:		perl-Sendmail-Milter
 Version:	0.18
-Release:	5
+Release:	6
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
