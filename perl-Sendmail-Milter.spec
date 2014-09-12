@@ -63,7 +63,6 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Sendmail/*.pm
 %dir %{perl_vendorarch}/auto/Sendmail
 %dir %{perl_vendorarch}/auto/Sendmail/Milter
-%{perl_vendorarch}/auto/Sendmail/Milter/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Sendmail/Milter/*.so
 %{perl_vendorarch}/auto/Sendmail/Milter/autosplit.ix
 %{_mandir}/man3/*
